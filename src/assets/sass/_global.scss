@@ -38,6 +38,7 @@ h3 {
 }
 
 p.lead {
+  color: #6C7A89;
   font-size: 1.15rem;
   font-weight: 400;
 }
@@ -50,24 +51,31 @@ p.lead {
 }
 
 .social-icons {
-  a {
+ a {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
-    color: $white !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
-    &:last-child {
-      margin-right: 0;
-    }
-    &:hover {
-      background-color: $primary;
-    }
-  }
+     &:last-child {
+          margin-right: 0;
+     }
+   }
+}
+
+.fa-github{
+     color:#5D3F6A;
+}
+
+.fa-linkedin-in{
+     color: #1F4788;
+}
+
+.fa-whatsapp{
+     color: #006442;
 }
 
 .dev-icons {
@@ -77,4 +85,58 @@ p.lead {
       color: $primary;
     }
   }
+}
+
+.list-inline-item img {
+     width: fit-content;
+     height: 40px;
+}
+
+.social-media-bottom{
+     font-family: 'JetBrains Mono', monospace;
+     size: 1.4em;
+     text-decoration: none;
+     color: #6C7A89;
+}
+
+.cards{
+     display: flex;
+     flex-direction: column;
+     padding: 15px;
+}
+
+.arthais{
+     color: #0f2d5e;
+}
+
+.people{
+     color: #8d130f;
+}
+
+.ifsp{
+     color: #054630;
+}
+
+.resume-item{
+     padding-top: 50px;
+}
+
+.fa-file-pdf{
+     color: #8d130f;
+}
+
+.curriculo:hover{
+     background-color: #5c0b1d;
+}
+
+.Github:hover{
+     background-color: #3e2947;
+}
+
+.Linkedin:hover{
+     background-color: #0f2d5e;
+}
+
+.Whatsapp:hover{
+     background-color: #0a3b2b;
 }

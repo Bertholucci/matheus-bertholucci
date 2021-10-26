@@ -18,6 +18,12 @@ module.exports = {
         display: config.manifestDisplay,
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
